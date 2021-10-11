@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  scroll-behavior: smooth;
+
 
 }
 body, html {
@@ -121,36 +121,7 @@ letter-spacing: 2px;
   right: -100%;
 
 }
-.sidebar.active
-{
-  right: 0;
 
-}
-.sidebar ul
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.sidebar ul li
-{
-  list-style: none;
-}
-.sidebar ul li a
-{
-  color: #fff;
-  text-decoration: none;
-  font-size: 2em;
-  margin: 10px 0;
-  font-weight: 300;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-}
-.sidebar ul li a:hover
-{
-  color: #00bcd4;
-}
 .sci 
 {
   position: absolute;
@@ -438,7 +409,7 @@ body, html {
   font-family: Arial;
 }
 
-/* Style tab links */
+
 .tablink {
   background-color: #555;
   color: white;
@@ -455,5 +426,5 @@ body, html {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
+
 
